@@ -20,7 +20,6 @@
         <label>
           Knotenfilter
           <select id="nodeFilter">
-            <option value="all">Alles</option>
             <option value="movie">Nur Filme</option>
             <option value="genre">Nur Genres</option>
             <option value="person">Nur Personen</option>
@@ -31,8 +30,20 @@
           Links
           <input id="linkStrength" type="range" min="-250" max="-20" value="-120" />
         </label>
+        <label>
+          Diagramm
+          <select id="chartType">
+            <option value="list">Filmliste</option>
+            <option value="genres">Genres (Häufigkeit)</option>
+            <option value="scatter">Release-Jahr vs. Runtime</option>
+            <option value="force">D3-Force Netzwerk</option>
+          </select>
+        </label>
         <div class="zoom-controls">
-          <span>Zoom</span>
+          <div class="zoom-header">
+            <span>Zoom</span>
+            <span id="zoomValue">100%</span>
+          </div>
           <div class="zoom-buttons">
             <button type="button" id="zoomOut">−</button>
             <button type="button" id="zoomReset">Zurücksetzen</button>
@@ -59,6 +70,7 @@
         </div>
       </section>
       <section class="viz">
+        <div id="simpleList" class="simple-list" aria-live="polite"></div>
         <svg id="network" viewBox="0 0 1200 800" role="img" aria-label="Filmnetzwerk"></svg>
       </section>
     </main>

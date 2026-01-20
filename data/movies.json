@@ -1,0 +1,1332 @@
+{
+  "fetched_at": "2026-01-20T09:54:16.891Z",
+  "source": "TMDB",
+  "movies": [
+    {
+      "id": 1306368,
+      "title": "The Rip",
+      "release_date": "2026-01-13",
+      "runtime": 113,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1892,
+          "name": "Matt Damon",
+          "character": "Lieutenant Dane Dumars"
+        }
+      ],
+      "crew": [
+        {
+          "id": 40223,
+          "name": "Joe Carnahan",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1242898,
+      "title": "Predator: Badlands",
+      "release_date": "2025-11-05",
+      "runtime": 107,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "character": "Thia / Tessa"
+        }
+      ],
+      "crew": [
+        {
+          "id": 568322,
+          "name": "Dan Trachtenberg",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 83533,
+      "title": "Avatar: Fire and Ash",
+      "release_date": "2025-12-17",
+      "runtime": 198,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 65731,
+          "name": "Sam Worthington",
+          "character": "Jake"
+        }
+      ],
+      "crew": [
+        {
+          "id": 2710,
+          "name": "James Cameron",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1242501,
+      "title": "Icefall",
+      "release_date": "2025-10-16",
+      "runtime": 99,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 92404,
+          "name": "Joel Kinnaman",
+          "character": "Harlan"
+        }
+      ],
+      "crew": [
+        {
+          "id": 15115,
+          "name": "Stefan Ruzowitzky",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1084242,
+      "title": "Zootopia 2",
+      "release_date": "2025-11-26",
+      "runtime": 107,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "cast": [
+        {
+          "id": 417,
+          "name": "Ginnifer Goodwin",
+          "character": "Judy Hopps (voice)"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1318201,
+          "name": "Jared Bush",
+          "job": "Director"
+        },
+        {
+          "id": 76595,
+          "name": "Byron Howard",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1368166,
+      "title": "The Housemaid",
+      "release_date": "2025-12-18",
+      "runtime": 131,
+      "genres": [
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 115440,
+          "name": "Sydney Sweeney",
+          "character": "Millie Calloway"
+        }
+      ],
+      "crew": [
+        {
+          "id": 116805,
+          "name": "Paul Feig",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1252037,
+      "title": "The Tank",
+      "release_date": "2025-09-18",
+      "runtime": 117,
+      "genres": [
+        {
+          "id": 10752,
+          "name": "War"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 36097,
+          "name": "Laurence Rupp",
+          "character": "Christian Weller"
+        }
+      ],
+      "crew": [
+        {
+          "id": 52961,
+          "name": "Dennis Gansel",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 62029,
+      "title": "Bingo Bongo",
+      "release_date": "1982-12-23",
+      "runtime": 102,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 67967,
+          "name": "Adriano Celentano",
+          "character": "Bingo Bongo"
+        }
+      ],
+      "crew": [
+        {
+          "id": 53657,
+          "name": "Pasquale Festa Campanile",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "release_date": "2025-07-18",
+      "runtime": 156,
+      "genres": [
+        {
+          "id": 16,
+          "name": "Animation"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1256603,
+          "name": "Natsuki Hanae",
+          "character": "Tanjiro Kamado (voice)"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1283010,
+          "name": "Haruo Sotozaki",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 755898,
+      "title": "War of the Worlds",
+      "release_date": "2025-07-29",
+      "runtime": 91,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 9778,
+          "name": "Ice Cube",
+          "character": "William Radford"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1634181,
+          "name": "Rich Lee",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 628847,
+      "title": "Trap House",
+      "release_date": "2025-11-14",
+      "runtime": 102,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 543530,
+          "name": "Dave Bautista",
+          "character": "Ray Seale"
+        }
+      ],
+      "crew": [
+        {
+          "id": 71280,
+          "name": "Michael Dowse",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1511417,
+      "title": "Bāhubali: The Epic",
+      "release_date": "2025-10-29",
+      "runtime": 224,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 237045,
+          "name": "Prabhas",
+          "character": "Mahendra Bahubali / Amarendra Bahubali / Maharaja Veerendra Vikramadeva"
+        }
+      ],
+      "crew": [
+        {
+          "id": 147021,
+          "name": "S. S. Rajamouli",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1272837,
+      "title": "28 Years Later: The Bone Temple",
+      "release_date": "2026-01-14",
+      "runtime": 109,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "cast": [
+        {
+          "id": 5469,
+          "name": "Ralph Fiennes",
+          "character": "Dr. Ian Kelson"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1795072,
+          "name": "Nia DaCosta",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1419406,
+      "title": "The Shadow's Edge",
+      "release_date": "2025-08-16",
+      "runtime": 142,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 18897,
+          "name": "Jackie Chan",
+          "character": "Huang Dezhong"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1452270,
+          "name": "Larry Yang Zi",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1131759,
+      "title": "Omniscient Reader: The Prophecy",
+      "release_date": "2025-07-23",
+      "runtime": 117,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1571598,
+          "name": "Ahn Hyo-seop",
+          "character": "Kim Dok-ja"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1293082,
+          "name": "Kim Byung-woo",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 425274,
+      "title": "Now You See Me: Now You Don't",
+      "release_date": "2025-11-12",
+      "runtime": 113,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "cast": [
+        {
+          "id": 44735,
+          "name": "Jesse Eisenberg",
+          "character": "J. Daniel Atlas"
+        }
+      ],
+      "crew": [
+        {
+          "id": 91268,
+          "name": "Ruben Fleischer",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1208348,
+      "title": "Rental Family",
+      "release_date": "2025-11-20",
+      "runtime": 110,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 18269,
+          "name": "Brendan Fraser",
+          "character": "Phillip Vanderploeg"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1264682,
+          "name": "Hikari",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1512623,
+      "title": "Risqué",
+      "release_date": "2025-08-01",
+      "runtime": 91,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 103285,
+          "name": "Leah Gibson",
+          "character": "Jessica"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1234359,
+          "name": "Tony Dean Smith",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1255674,
+      "title": "Crazy Old Lady",
+      "release_date": "2025-10-10",
+      "runtime": 91,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 2744,
+          "name": "Carmen Maura",
+          "character": "Alicia"
+        }
+      ],
+      "crew": [
+        {
+          "id": 84676,
+          "name": "Martín Mauregui",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 982843,
+      "title": "The Great Flood",
+      "release_date": "2025-09-18",
+      "runtime": 109,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 2053219,
+          "name": "Kim Da-mi",
+          "character": "Koo An-na"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1293082,
+          "name": "Kim Byung-woo",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1432046,
+      "title": "남친깨기전에빨리빼!",
+      "release_date": "2021-03-07",
+      "runtime": 0,
+      "genres": [],
+      "cast": [
+        {
+          "id": 3164807,
+          "name": "Yoon Yool",
+          "character": ""
+        }
+      ],
+      "crew": []
+    },
+    {
+      "id": 1034716,
+      "title": "People We Meet on Vacation",
+      "release_date": "2026-01-06",
+      "runtime": 116,
+      "genres": [
+        {
+          "id": 10749,
+          "name": "Romance"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1902689,
+          "name": "Emily Bader",
+          "character": "Poppy Wright"
+        }
+      ],
+      "crew": [
+        {
+          "id": 932759,
+          "name": "Brett Haley",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1282440,
+      "title": "Happy Patel: Khatarnak Jasoos",
+      "release_date": "2026-01-16",
+      "runtime": 122,
+      "genres": [
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 10749,
+          "name": "Romance"
+        }
+      ],
+      "cast": [
+        {
+          "id": 119828,
+          "name": "Vir Das",
+          "character": "Happy Patel / Happy Smith Waisley"
+        }
+      ],
+      "crew": [
+        {
+          "id": 119828,
+          "name": "Vir Das",
+          "job": "Director"
+        },
+        {
+          "id": 1430639,
+          "name": "Kavi Shastri",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1181765,
+      "title": "School of Magical Animals 3",
+      "release_date": "2024-09-26",
+      "runtime": 100,
+      "genres": [
+        {
+          "id": 10751,
+          "name": "Family"
+        },
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1262984,
+          "name": "Emilia Pieske",
+          "character": "Helene"
+        }
+      ],
+      "crew": [
+        {
+          "id": 59338,
+          "name": "Sven Unterwaldt Jr.",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1301122,
+      "title": "Nazi Supersoldier",
+      "release_date": "2024-10-13",
+      "runtime": 78,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1488019,
+          "name": "Erkan Sulcani",
+          "character": "Juso"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1488025,
+          "name": "Ahmed Chaer",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1491902,
+      "title": "Bang",
+      "release_date": "2025-07-11",
+      "runtime": 0,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1292258,
+          "name": "Jack Kesy",
+          "character": "William Bang"
+        }
+      ],
+      "crew": [
+        {
+          "id": 65615,
+          "name": "Wych Kaosayananda",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "release_date": "2025-12-03",
+      "runtime": 104,
+      "genres": [
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 27972,
+          "name": "Josh Hutcherson",
+          "character": "Mike"
+        }
+      ],
+      "crew": [
+        {
+          "id": 2103746,
+          "name": "Emma Tammi",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1054867,
+      "title": "One Battle After Another",
+      "release_date": "2025-09-23",
+      "runtime": 162,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "cast": [
+        {
+          "id": 6193,
+          "name": "Leonardo DiCaprio",
+          "character": "Bob"
+        }
+      ],
+      "crew": [
+        {
+          "id": 4762,
+          "name": "Paul Thomas Anderson",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1412598,
+      "title": "Killer Whale",
+      "release_date": "2026-01-16",
+      "runtime": 89,
+      "genres": [
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1279279,
+          "name": "Virginia Gardner",
+          "character": "Maddie"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1871358,
+          "name": "Jo-Anne Brechin",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1137179,
+      "title": "Yadang: The Snitch",
+      "release_date": "2025-04-16",
+      "runtime": 123,
+      "genres": [
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        }
+      ],
+      "cast": [
+        {
+          "id": 1257899,
+          "name": "Kang Ha-neul",
+          "character": "Kang-soo"
+        }
+      ],
+      "crew": [
+        {
+          "id": 1294772,
+          "name": "Hwang Byeong-gug",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 7451,
+      "title": "xXx",
+      "release_date": "2002-08-09",
+      "runtime": 124,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 80,
+          "name": "Crime"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 12835,
+          "name": "Vin Diesel",
+          "character": "Xander Cage"
+        }
+      ],
+      "crew": [
+        {
+          "id": 18878,
+          "name": "Rob Cohen",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1439112,
+      "title": "Muzzle: City of Wolves",
+      "release_date": "2025-11-13",
+      "runtime": 93,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 53,
+          "name": "Thriller"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        }
+      ],
+      "cast": [
+        {
+          "id": 6383,
+          "name": "Aaron Eckhart",
+          "character": "Jake Rosser"
+        }
+      ],
+      "crew": [
+        {
+          "id": 98537,
+          "name": "John Stalberg Jr.",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1247002,
+      "title": "The Old Woman with the Knife",
+      "release_date": "2025-04-30",
+      "runtime": 123,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 9648,
+          "name": "Mystery"
+        },
+        {
+          "id": 18,
+          "name": "Drama"
+        }
+      ],
+      "cast": [
+        {
+          "id": 588209,
+          "name": "Lee Hye-young",
+          "character": "Hornclaw"
+        }
+      ],
+      "crew": [
+        {
+          "id": 150150,
+          "name": "Min Kyu-dong",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 533533,
+      "title": "TRON: Ares",
+      "release_date": "2025-10-08",
+      "runtime": 119,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        }
+      ],
+      "cast": [
+        {
+          "id": 7499,
+          "name": "Jared Leto",
+          "character": "Ares"
+        }
+      ],
+      "crew": [
+        {
+          "id": 20307,
+          "name": "Joachim Rønning",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 24428,
+      "title": "The Avengers",
+      "release_date": "2012-04-25",
+      "runtime": 143,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        }
+      ],
+      "cast": [
+        {
+          "id": 3223,
+          "name": "Robert Downey Jr.",
+          "character": "Tony Stark / Iron Man"
+        }
+      ],
+      "crew": [
+        {
+          "id": 12891,
+          "name": "Joss Whedon",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1223601,
+      "title": "Sisu: Road to Revenge",
+      "release_date": "2025-10-21",
+      "runtime": 89,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 10752,
+          "name": "War"
+        }
+      ],
+      "cast": [
+        {
+          "id": 148012,
+          "name": "Jorma Tommila",
+          "character": "Aatami Korpi"
+        }
+      ],
+      "crew": [
+        {
+          "id": 145228,
+          "name": "Jalmari Helander",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 803796,
+      "title": "KPop Demon Hunters",
+      "release_date": "2025-06-20",
+      "runtime": 96,
+      "genres": [
+        {
+          "id": 14,
+          "name": "Fantasy"
+        },
+        {
+          "id": 10402,
+          "name": "Music"
+        },
+        {
+          "id": 35,
+          "name": "Comedy"
+        },
+        {
+          "id": 16,
+          "name": "Animation"
+        }
+      ],
+      "cast": [
+        {
+          "id": 144279,
+          "name": "Arden Cho",
+          "character": "Rumi (voice)"
+        }
+      ],
+      "crew": [
+        {
+          "id": 3003169,
+          "name": "Maggie Kang",
+          "job": "Director"
+        },
+        {
+          "id": 1453550,
+          "name": "Chris Appelhans",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 1196067,
+      "title": "Worldbreaker",
+      "release_date": "2025-10-30",
+      "runtime": 95,
+      "genres": [
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        },
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 27,
+          "name": "Horror"
+        }
+      ],
+      "cast": [
+        {
+          "id": 63,
+          "name": "Milla Jovovich",
+          "character": "Mom"
+        }
+      ],
+      "crew": [
+        {
+          "id": 37948,
+          "name": "Brad Anderson",
+          "job": "Director"
+        }
+      ]
+    },
+    {
+      "id": 76600,
+      "title": "Avatar: The Way of Water",
+      "release_date": "2022-12-14",
+      "runtime": 192,
+      "genres": [
+        {
+          "id": 28,
+          "name": "Action"
+        },
+        {
+          "id": 12,
+          "name": "Adventure"
+        },
+        {
+          "id": 878,
+          "name": "Science Fiction"
+        }
+      ],
+      "cast": [
+        {
+          "id": 65731,
+          "name": "Sam Worthington",
+          "character": "Jake Sully"
+        }
+      ],
+      "crew": [
+        {
+          "id": 2710,
+          "name": "James Cameron",
+          "job": "Director"
+        }
+      ]
+    }
+  ]
+}
