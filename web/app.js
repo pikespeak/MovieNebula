@@ -11,7 +11,6 @@ const height = 800;
 
 const linkStrengthInput = document.getElementById('linkStrength');
 const filterInput = document.getElementById('nodeFilter');
-const jsonFileInput = document.getElementById('jsonFile');
 const datasetInfo = document.getElementById('datasetInfo');
 
 const createGraph = (data) => {
@@ -60,8 +59,9 @@ const createGraph = (data) => {
 };
 
 const updateInfo = (data) => {
-  const fetchedAt = data.fetched_at ? new Date(data.fetched_at).toLocaleDateString('de-DE') : 'lokal';
-  datasetInfo.textContent = `Datensatz: ${data.movies.length} Filme · ${fetchedAt}`;
+  datasetInfo.textContent = `Datensatz: ${data.movies.length} Filme · ${new Date(
+    data.fetched_at,
+  ).toLocaleDateString('de-DE')}`;
 };
 
 const renderNetwork = (graph) => {
@@ -171,21 +171,6 @@ const loadData = async () => {
   throw new Error('No data available');
 };
 
-const loadFromFile = (file) =>
-  new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => {
-      try {
-        const data = JSON.parse(reader.result);
-        resolve(data);
-      } catch (error) {
-        reject(error);
-      }
-    };
-    reader.onerror = () => reject(reader.error);
-    reader.readAsText(file);
-  });
-
 loadData()
   .then((data) => {
     updateInfo(data);
@@ -193,21 +178,6 @@ loadData()
     renderNetwork(graph);
   })
   .catch((error) => {
-    datasetInfo.textContent =
-      'Keine Daten verfügbar. Bitte JSON-Datei auswählen oder den TMDB-Download ausführen.';
+    datasetInfo.textContent = 'Keine Daten verfügbar. Bitte den TMDB-Download ausführen.';
     console.error(error);
   });
-
-jsonFileInput.addEventListener('change', async (event) => {
-  const file = event.target.files?.[0];
-  if (!file) return;
-  try {
-    const data = await loadFromFile(file);
-    updateInfo(data);
-    const graph = createGraph(data);
-    renderNetwork(graph);
-  } catch (error) {
-    datasetInfo.textContent = 'Konnte JSON nicht laden. Bitte Datei prüfen.';
-    console.error(error);
-  }
-});

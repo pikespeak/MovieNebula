@@ -31,9 +31,6 @@ Danach die Seite öffnen: `http://localhost:8000/web/`
 
 Die Visualisierung lädt automatisch zuerst `data/movies.json`. Falls nicht vorhanden, wird `data/movies.sample.json` geladen.
 
-### Alternative ohne Webserver (eingeschränkte Umgebung)
-Du kannst `web/index.html` auch direkt per Doppelklick öffnen. In diesem Modus blockieren Browser oft das Laden von Dateien per `fetch`. Nutze dann den Datei-Upload **„JSON laden“**, um `data/movies.json` manuell auszuwählen.
-
 ## Hinweise
 - Die TMDB-API hat Rate-Limits. Wenn du mehr Seiten lädst, kann es sinnvoll sein, im Download-Script einen kleinen Delay einzubauen.
 - Die Visualisierung nutzt aktuell Genres, Keywords und Cast, lässt sich aber leicht um weitere Knoten erweitern (z.B. Produktionsfirmen, Länder, Sprachen).
