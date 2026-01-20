@@ -1,0 +1,71 @@
+{
+  "fetched_at": "2024-01-15T12:00:00.000Z",
+  "source": "TMDB",
+  "movies": [
+    {
+      "id": 19995,
+      "title": "Avatar",
+      "release_date": "2009-12-15",
+      "runtime": 162,
+      "genres": [
+        { "id": 28, "name": "Action" },
+        { "id": 12, "name": "Adventure" },
+        { "id": 878, "name": "Science Fiction" }
+      ],
+      "keywords": [
+        { "id": 1463, "name": "culture clash" },
+        { "id": 2964, "name": "future" }
+      ],
+      "cast": [
+        { "id": 65731, "name": "Sam Worthington", "character": "Jake Sully" },
+        { "id": 8691, "name": "Zoe Saldaña", "character": "Neytiri" }
+      ],
+      "crew": [
+        { "id": 2710, "name": "James Cameron", "job": "Director" }
+      ]
+    },
+    {
+      "id": 27205,
+      "title": "Inception",
+      "release_date": "2010-07-15",
+      "runtime": 148,
+      "genres": [
+        { "id": 28, "name": "Action" },
+        { "id": 878, "name": "Science Fiction" }
+      ],
+      "keywords": [
+        { "id": 825, "name": "dream" },
+        { "id": 1599, "name": "subconscious" }
+      ],
+      "cast": [
+        { "id": 6193, "name": "Leonardo DiCaprio", "character": "Dom Cobb" },
+        { "id": 24045, "name": "Joseph Gordon-Levitt", "character": "Arthur" }
+      ],
+      "crew": [
+        { "id": 525, "name": "Christopher Nolan", "job": "Director" }
+      ]
+    },
+    {
+      "id": 603,
+      "title": "The Matrix",
+      "release_date": "1999-03-30",
+      "runtime": 136,
+      "genres": [
+        { "id": 28, "name": "Action" },
+        { "id": 878, "name": "Science Fiction" }
+      ],
+      "keywords": [
+        { "id": 1036, "name": "artificial intelligence" },
+        { "id": 1063, "name": "virtual reality" }
+      ],
+      "cast": [
+        { "id": 6384, "name": "Keanu Reeves", "character": "Neo" },
+        { "id": 2975, "name": "Carrie-Anne Moss", "character": "Trinity" }
+      ],
+      "crew": [
+        { "id": 933, "name": "Lana Wachowski", "job": "Director" },
+        { "id": 934, "name": "Lilly Wachowski", "job": "Director" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MovieNebula – TMDB Visualisierung</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>MovieNebula</h1>
+        <p>
+          Interaktives D3-Experiment, das Filme, Genres und Schauspieler:innen als Netzwerk
+          darstellt.
+        </p>
+      </div>
+      <div class="controls">
+        <label>
+          Knotenfilter
+          <select id="nodeFilter">
+            <option value="all">Alles</option>
+            <option value="movie">Nur Filme</option>
+            <option value="genre">Nur Genres</option>
+            <option value="person">Nur Personen</option>
+            <option value="keyword">Nur Keywords</option>
+          </select>
+        </label>
+        <label>
+          Links
+          <input id="linkStrength" type="range" min="-250" max="-20" value="-120" />
+        </label>
+      </div>
+    </header>
+    <main>
+      <section class="legend">
+        <h2>Legende</h2>
+        <ul>
+          <li><span class="dot movie"></span> Film</li>
+          <li><span class="dot genre"></span> Genre</li>
+          <li><span class="dot person"></span> Person</li>
+          <li><span class="dot keyword"></span> Keyword</li>
+        </ul>
+        <div class="stats">
+          <p id="datasetInfo">Lade Daten…</p>
+        </div>
+      </section>
+      <section class="viz">
+        <svg id="network" viewBox="0 0 1200 800" role="img" aria-label="Filmnetzwerk"></svg>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Tipp: Lade eigene Daten mit dem TMDB-Downloader und ersetze <code>data/movies.json</code>.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
