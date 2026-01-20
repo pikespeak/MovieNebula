@@ -117,14 +117,53 @@ const renderNetwork = (graph) => {
 
   svg.call(zoom);
 
+  const centerX = layoutWidth / 2;
+  const centerY = layoutHeight / 2;
+  const useTypeClusters = false;
+  const typeClusterOffsets = new Map([
+    ['movie', { x: -80, y: -40 }],
+    ['genre', { x: 80, y: -40 }],
+    ['person', { x: -60, y: 60 }],
+    ['keyword', { x: 60, y: 60 }],
+  ]);
+
+  // Compact baseline forces:
+  // - Link: short distance + moderate strength keeps structure tight.
+  // - Charge: mild repulsion prevents clumping without blowing out the layout.
+  // - Center/X/Y: strong gravity to stabilize near center (X/Y can optionally cluster by type).
+  // - Collide: soft collisions keep nodes readable without hard separation.
+  // - Velocity/alpha decay: reduces drifting and lets the layout settle quickly.
   const simulation = d3
     .forceSimulation(graph.nodes)
-    .force('link', d3.forceLink(graph.links).id((d) => d.id).strength(0.1))
-    .force('charge', d3.forceManyBody().strength(-80))
-    .force('center', d3.forceCenter(layoutWidth / 2, layoutHeight / 2))
-    .force('x', d3.forceX(layoutWidth / 2).strength(0.08))
-    .force('y', d3.forceY(layoutHeight / 2).strength(0.08))
-    .force('collide', d3.forceCollide().radius(22));
+    .velocityDecay(0.45)
+    .alphaDecay(0.06)
+    .force(
+      'link',
+      d3
+        .forceLink(graph.links)
+        .id((d) => d.id)
+        .distance(40)
+        .strength(0.12),
+    )
+    .force('charge', d3.forceManyBody().strength(-28).distanceMin(8).distanceMax(240))
+    .force('center', d3.forceCenter(centerX, centerY))
+    .force(
+      'x',
+      d3
+        .forceX((d) =>
+          useTypeClusters ? centerX + (typeClusterOffsets.get(d.type)?.x ?? 0) : centerX,
+        )
+        .strength(0.22),
+    )
+    .force(
+      'y',
+      d3
+        .forceY((d) =>
+          useTypeClusters ? centerY + (typeClusterOffsets.get(d.type)?.y ?? 0) : centerY,
+        )
+        .strength(0.22),
+    )
+    .force('collide', d3.forceCollide().radius(22).strength(0.7).iterations(1));
 
   const link = linkGroup
     .selectAll('line')
